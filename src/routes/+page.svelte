@@ -1,2 +1,3 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<h1>Welcome to PHCodals</h1>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus commodi eveniet quibusdam in voluptate assumenda nesciunt, provident nemo nobis et voluptatum dolore culpa odio ab, a sit, minima sequi aspernatur recusandae repudiandae? Quam voluptatum assumenda ad modi quas consequuntur voluptates quisquam nam iste aliquam nihil, nisi soluta quod odit voluptas temporibus delectus maxime repellat facilis, laboriosam, atque obcaecati. Vero, quidem!</p>
