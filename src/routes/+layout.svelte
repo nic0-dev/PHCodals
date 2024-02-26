@@ -6,15 +6,15 @@
 	import logo from '$lib/assets/blackicon.png';
 </script>
 
-<div class="flex gap-5 justify-between items-center mx-auto px-4 py-2 sm:px-6 sm:py-2 lg:px-16 font-semibold tracking-tight leading-5 whitespace-nowrap max-md:flex-wrap max-md:px-5">	
+<div class="flex gap-5 justify-between items-center mx-auto px-4 py-2 sm:px-6 sm:py-2 lg:px-16 font-semibold tracking-tight leading-5 whitespace-nowrap max-md:flex-wrap max-md:px-5">		
 	<nav class="text-sm flex flex-row gap-5 justify-between text-neutral-400 items-center" aria-label="Tabs">
 		<a href="/"><div class="sm:flex gap-4 text-xl font-bold leading-7 text-neutral-900 sm:items-center sm:justify-between pr-5">
-			<!-- <img src={logo} alt="Black Logo" class="aspect-square w-[25px]"/> -->
+			<img src={logo} alt="Black Logo" class="aspect-square w-[25px]"/>
 			<div class="grow">PHCodals</div>
 		</div></a>
-		<a href="/" class="shrink-0 rounded-lg px-3 py-3 hover:bg-gray-100 hover:text-neutral-900">Home</a>
-		<a href="/about" class="shrink-0 rounded-lg px-3 py-3 hover:bg-gray-100 hover:text-neutral-900">About</a>
-		<a href="/" class="shrink-0 rounded-lg px-3 py-3 hover:bg-gray-100 hover:text-neutral-900">Pricing</a>
+		<a href="/" class="shrink-0 text-neutral-900 rounded-lg px-3 py-3 hover:text-neutral-900">Home</a>
+		<a href="/about" class="shrink-0 rounded-lg px-3 py-3 hover:text-neutral-900">About</a>
+		<a href="/" class="shrink-0 rounded-lg px-3 py-3 hover:text-neutral-900">Pricing</a>
 		<a href="/" class="flex flex-row gap-2 items-center shrink-0 rounded-xl px-3 py-3 text-primary-500 bg-primary-100 hover:bg-primary-200 hover:text-primary-600">
 			<FontAwesomeIcon icon={faEnvelope} /> Get in touch
 		</a>
@@ -25,9 +25,10 @@
 	</div>
 </div>
 
+
 <slot></slot>	
 
-<footer class="bg-gray-100">
+<footer>
 	<div class="mx-auto max-w-6xl px-4 py-12 sm:px-6 lg:px-8">
 		<div class="flex justify-center gap-3 items-center">
 			<img src={logo} alt="Black Logo" class="aspect-square w-[30px]"/>
@@ -40,11 +41,11 @@
 		</p>
 	
 		<ul class="mt-12 flex flex-wrap justify-center gap-6 md:gap-8 lg:gap-12">
-			<li><a class="text-neutral-900 transition hover:text-gray-700/75" href="/"> Home </a></li>
-			<li><a class="text-neutral-900 transition hover:text-gray-700/75" href="/about"> My Library </a></li>
-			<li><a class="text-neutral-900 transition hover:text-gray-700/75" href="/about"> About </a></li>
-			<li><a class="text-neutral-900 transition hover:text-gray-700/75" href="/"> Pricing </a></li>
-			<li><a class="text-neutral-900 transition hover:text-gray-700/75" href="/"> Settings </a></li>
+			<li><a class="text-neutral-900 transition hover:text-gray-700/75" href="/"> About </a></li>
+			<li><a class="text-neutral-900 transition hover:text-gray-700/75" href="/about"> Contact Us </a></li>
+			<li><a class="text-neutral-900 transition hover:text-gray-700/75" href="/about"> Privacy Policy </a></li>
+			<li><a class="text-neutral-900 transition hover:text-gray-700/75" href="/"> Licensing </a></li>
+			<li><a class="text-neutral-900 transition hover:text-gray-700/75" href="/"> Terms </a></li>
 		</ul>
   
 	  	<ul class="mt-12 flex justify-center gap-6 md:gap-8">
@@ -89,7 +90,7 @@
 	  	</ul>
 	  
 	</div>
-	<div class="mx-auto max-w-6xl px-4 border-t border-gray-100 pb-8">
+	<div class="mx-auto max-w-6xl px-4 border-t border-gray-200 pb-8">
 		<div class="text-center mt-4 sm:flex sm:justify-between sm:text-left">
 			<p class="text-xs text-gray-500">&copy; 2022. Meliora. All rights reserved.</p>
 			<p class="text-xs text-gray-500">
