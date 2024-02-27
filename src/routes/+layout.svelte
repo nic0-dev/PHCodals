@@ -1,7 +1,6 @@
 <script>
 	import "@fontsource-variable/work-sans";
 	import "../app.css"
-	import logo from '$lib/assets/blackicon.png';
 	import { page } from "$app/stores"
 
 	let visible = true;
@@ -106,8 +105,15 @@
 
 	<footer>
 		<div class="mx-auto max-w-6xl px-4 py-12 sm:px-6 lg:px-8">
-			<div class="flex justify-center gap-3 items-center">
-				<img src={logo} alt="Black Logo" class="aspect-square w-[30px]"/>
+			<div class="flex justify-center gap-4 items-center">
+				<svg class="aspect-square w-[30px] overflow-visible fill-neutral-900" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+					<g data-name="Layer 1">
+						<rect width="99" height="50" x="389" y="408" rx="14.9"/>
+						<rect width="141" height="50" x="389" y="480" rx="14.9"/>
+						<rect width="367" height="50" y="480" rx="14.9"/>
+						<path d="M352 408h-30a4 4 0 0 1-4-4V109a4 4 0 0 1 4-4c13-1 28-4 44-10h1l21-10c28-14 40-19 64-13a48 48 0 0 1 36 41 5 5 0 0 0 5 5h32a5 5 0 0 0 5-6c-3-40-30-74-68-84s-60 1-91 15l-20 10c-18 7-29 8-45 5a3 3 0 0 1-1 0 3 3 0 0 1-2-2c-7-16-13-33-16-46-1-6-5-10-10-10h-24c-5 0-9 4-10 10-3 13-9 30-16 46a3 3 0 0 1-2 2c-12 4-28 2-46-5l-20-10c-31-14-53-25-91-15a92 92 0 0 0-68 84 5 5 0 0 0 5 6h32a5 5 0 0 0 5-5 48 48 0 0 1 36-41c24-6 36-1 64 13l21 10h1c16 6 31 9 44 10a4 4 0 0 1 4 4v295a4 4 0 0 1-4 4H57a15 15 0 0 0-15 15v20a15 15 0 0 0 15 15h295a15 15 0 0 0 15-15v-20a15 15 0 0 0-15-15Zm-98-304a15 15 0 0 1 2-7l2-5a8 8 0 0 1 14 0l2 5a15 15 0 0 1 2 7v300a4 4 0 0 1-4 4h-14a4 4 0 0 1-4-4Z"/>
+					</g>
+				</svg>
 				<div class="text-black text-2xl font-bold">PHCodals</div>
 			</div>
 		
