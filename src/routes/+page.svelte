@@ -12,7 +12,7 @@
             quisque ut interdum tincidunt duis.
           </p>
           <div class="space-y-4 sm:flex sm:space-y-0 sm:space-x-4 mt-4 md:mt-8">
-            <a href="/" class="inline-block rounded-lg bg-primary-600 px-4 py-3 text-sm font-semibold text-white transition hover:bg-primary-400">
+            <a href="/registration" class="inline-block rounded-lg bg-primary-600 px-4 py-3 text-sm font-semibold text-white transition hover:bg-primary-400">
               Get Started
             </a>
           </div>
@@ -90,10 +90,10 @@
       <div class="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
           <!-- Pricing Card -->
           <div class="flex flex-col max-w-lg p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow">
-              <h3 class="mb-4 text-2xl font-semibold">Starter</h3>
+              <h3 class="mb-4 text-2xl font-semibold">Free</h3>
               <p class="font-light text-gray-500 sm:text-lg0">Best option for personal use & for your next project.</p>
               <div class="flex items-baseline justify-center my-8">
-                  <span class="mr-2 text-5xl font-extrabold">₱150</span>
+                  <span class="mr-2 text-5xl font-bold">₱0</span>
                   <span class="text-gray-500">/month</span>
               </div>
               <!-- List -->
@@ -124,14 +124,14 @@
                       <span>Free updates: <span class="font-semibold">6 months</span></span>
                   </li>
               </ul>
-              <a href="/" class="text-white bg-primary-500 hover:bg-primary-700 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Get started</a>
+              <a href="/pricing" class="text-white bg-primary-500 hover:bg-primary-700 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Get started</a>
           </div>
           <!-- Pricing Card -->
           <div class="flex flex-col max-w-lg p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow">
-            <h3 class="mb-4 text-2xl font-semibold">Premium</h3>
+            <h3 class="mb-4 text-2xl font-semibold">Starter</h3>
             <p class="font-light text-gray-500 sm:text-lg0">Best option for personal use & for your next project.</p>
             <div class="flex items-baseline justify-center my-8">
-                <span class="mr-2 text-5xl font-extrabold">₱300</span>
+                <span class="mr-2 text-5xl font-bold">₱150</span>
                 <span class="text-gray-500">/month</span>
             </div>
             <!-- List -->
@@ -162,14 +162,14 @@
                     <span>Free updates: <span class="font-semibold">6 months</span></span>
                 </li>
             </ul>
-            <a href="/" class="text-white bg-primary-500 hover:bg-primary-700 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Get started</a>
+            <a href="/pricing" class="text-white bg-primary-500 hover:bg-primary-700 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Get started</a>
           </div>          
           <!-- Pricing Card -->
           <div class="flex flex-col max-w-lg p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow">
-              <h3 class="mb-4 text-2xl font-semibold">VIP</h3>
+              <h3 class="mb-4 text-2xl font-semibold">Premium</h3>
               <p class="font-light text-gray-500 sm:text-lg0">Best option for personal use & for your next project.</p>
               <div class="flex items-baseline justify-center my-8">
-                  <span class="mr-2 text-5xl font-extrabold">₱500</span>
+                  <span class="mr-2 text-5xl font-bold">₱300</span>
                   <span class="text-gray-500">/month</span>
               </div>
               <!-- List -->
@@ -200,7 +200,7 @@
                       <span>Free updates: <span class="font-semibold">6 months</span></span>
                   </li>
               </ul>
-              <a href="/" class="text-white bg-primary-500 hover:bg-primary-700 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Get started</a>
+              <a href="/pricing" class="text-white bg-primary-500 hover:bg-primary-700 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Get started</a>
           </div>
       </div>
   </div>
@@ -209,9 +209,9 @@
 <section class="bg-gray-50">
   <div class="max-w-screen-xl px-4 py-8 mx-auto lg:py-16 lg:px-6">
       <div class="max-w-screen-sm mx-auto text-center">
-          <h2 class="mb-4 text-3xl font-extrabold leading-tight tracking-tight text-gray-900">Start your free trial today</h2>
-          <p class="mb-6 font-light text-gray-500md:text-lg">Try PHCodals for 30 days. No credit card required.</p>
-          <a href="/" class="text-white bg-primary-500 hover:bg-primary-700 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">Free trial for 30 days</a>
+          <h2 class="mb-4 text-2xl font-extrabold leading-tight tracking-tight text-gray-900">Start your free trial today</h2>
+          <p class="mb-6 font-light text-gray-500md:text-lg">Try PHCodals Premium for 30 days. No credit card required.</p>
+          <a href="/pricing" class="text-white bg-primary-500 hover:bg-primary-700 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">Free trial for 30 days</a>
       </div>
   </div>
 </section>
