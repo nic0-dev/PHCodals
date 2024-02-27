@@ -12,7 +12,7 @@
             quisque ut interdum tincidunt duis.
           </p>
           <div class="space-y-4 sm:flex sm:space-y-0 sm:space-x-4 mt-4 md:mt-8">
-            <a href="/registration" class="inline-block rounded-lg bg-primary-600 px-4 py-3 text-sm font-semibold text-white transition hover:bg-primary-400">
+            <a href="/session" class="inline-block rounded-lg bg-primary-600 px-4 py-3 text-sm font-semibold text-white transition hover:bg-primary-400">
               Get Started
             </a>
           </div>

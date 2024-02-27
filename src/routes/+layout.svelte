@@ -11,24 +11,67 @@
 {#if $page.route.id === '/session'}
 	<slot />
 {:else}
-	<div class="flex gap-5 justify-between items-center mx-auto px-4 py-2 sm:px-6 sm:py-2 lg:px-16 font-semibold tracking-tight leading-5 whitespace-nowrap max-md:flex-wrap max-md:px-5">		
-		<nav class="text-sm flex flex-row gap-5 justify-between text-neutral-400 items-center" aria-label="Tabs">
-			<a href="/"><div class="sm:flex gap-4 text-xl font-bold leading-7 text-neutral-900 sm:items-center sm:justify-between pr-5">
-				<img src={logo} alt="Black Logo" class="aspect-square w-[25px]"/>
-				<div class="grow">PHCodals</div>
-			</div></a>
-			<a href="/" class:text-black={$page.route.id === "/"} class="shrink-0rounded-lg px-3 py-3 hover:text-neutral-900">Home</a>
-			<a href="/about" class:text-black={$page.route.id === "/about"} class="shrink-0 rounded-lg px-3 py-3 hover:text-neutral-900">About</a>
-			<a href="/pricing" class:text-black={$page.route.id === "/pricing"} class="shrink-0 rounded-lg px-3 py-3 hover:text-neutral-900">Pricing</a>
-			<a href="/" class="flex flex-row gap-2 items-center shrink-0 rounded-xl px-3 py-3 text-primary-500 bg-primary-100 hover:bg-primary-200 hover:text-primary-600">
-				<FontAwesomeIcon icon={faEnvelope} /> Get in touch
+
+	<header>
+		<div class="mx-auto flex h-16 max-w-screen-xl items-center gap-8 px-4 py-2 sm:px-6 lg:px-8 font-semibold tracking-tight leading-5 whitespace-nowrap ">
+			<a class="block text-neutral-900" href="/">
+				<div class="flex flex-row gap-4 text-xl font-bold leading-7 text-neutral-900 items-center justify-between pr-5">
+					<svg class="aspect-square w-[25px] overflow-visible fill-neutral-900" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+						<g data-name="Layer 1">
+							<rect width="99" height="50" x="389" y="408" rx="14.9"/>
+							<rect width="141" height="50" x="389" y="480" rx="14.9"/>
+							<rect width="367" height="50" y="480" rx="14.9"/>
+							<path d="M352 408h-30a4 4 0 0 1-4-4V109a4 4 0 0 1 4-4c13-1 28-4 44-10h1l21-10c28-14 40-19 64-13a48 48 0 0 1 36 41 5 5 0 0 0 5 5h32a5 5 0 0 0 5-6c-3-40-30-74-68-84s-60 1-91 15l-20 10c-18 7-29 8-45 5a3 3 0 0 1-1 0 3 3 0 0 1-2-2c-7-16-13-33-16-46-1-6-5-10-10-10h-24c-5 0-9 4-10 10-3 13-9 30-16 46a3 3 0 0 1-2 2c-12 4-28 2-46-5l-20-10c-31-14-53-25-91-15a92 92 0 0 0-68 84 5 5 0 0 0 5 6h32a5 5 0 0 0 5-5 48 48 0 0 1 36-41c24-6 36-1 64 13l21 10h1c16 6 31 9 44 10a4 4 0 0 1 4 4v295a4 4 0 0 1-4 4H57a15 15 0 0 0-15 15v20a15 15 0 0 0 15 15h295a15 15 0 0 0 15-15v-20a15 15 0 0 0-15-15Zm-98-304a15 15 0 0 1 2-7l2-5a8 8 0 0 1 14 0l2 5a15 15 0 0 1 2 7v300a4 4 0 0 1-4 4h-14a4 4 0 0 1-4-4Z"/>
+						</g>
+					</svg>
+					<div class="grow">PHCodals</div>
+				</div>
 			</a>
-		</nav>
-		<div class="text-sm flex gap-3 justify-between py-1">
-			<a href="/"><div class="px-6 py-3 my-auto text-neutral-400 rounded-xl hover:bg-gray-100 hover:text-neutral-900">Login</div></a>
-			<a href="/session"><div class="px-4 py-3 text-white rounded-xl bg-neutral-900 hover:bg-transparent hover:ring-1 hover:ring-black hover:text-neutral-900">Get Started</div></a>
-		</div>
-	</div>
+	  
+		  <div class="flex flex-1 items-center justify-end md:justify-between">
+			<nav aria-label="Global" class="hidden md:block">
+			  <ul class="text-neutral-400 flex items-center gap-6 text-sm">
+				<li>
+					<a class:text-black={$page.route.id === "/"} class="shrink-0 px-3 py-3 hover:text-neutral-900" href="/"> Home </a>
+				  </li>
+				<li>
+				  <a class:text-black={$page.route.id === "/about"} class="shrink-0 px-3 py-3 hover:text-neutral-900" href="/about"> About </a>
+				</li>
+				<li>
+					<a href="/pricing" class:text-black={$page.route.id === "/pricing"} class="shrink-0 rounded-lg px-3 py-3 hover:text-neutral-900">Pricing</a>
+				</li>
+				<li>
+					<a href="mailto:mlcagas@up.edu.ph" class="flex flex-row justify-center gap-2 items-center shrink-0 rounded-xl px-3 py-3 text-primary-500 bg-primary-100 hover:bg-primary-200 hover:text-primary-600">
+						<svg class="flex flex-rowaspect-square w-[15px] overflow-visible fill-primary-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 525 500">
+							<path d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z"/>
+						</svg>
+						<div class="grow"> Get in touch </div>
+					</a>					
+				</li>
+			  </ul>
+			</nav>
+			
+			<div class="flex items-center gap-4">
+				<div class="text-sm flex gap-4 justify-between py-1">
+					<a class="hidden sm:block" href="/">
+						<div class="px-6 py-3 my-auto text-neutral-400 rounded-xl hover:bg-gray-100 hover:text-neutral-900">
+							Login
+						</div>
+					</a>
+					<a href="/session">
+						<div class="px-4 py-3 text-white rounded-xl bg-neutral-900 hover:bg-transparent hover:ring-1 hover:ring-black hover:text-neutral-900">
+							Get Started
+						</div>
+					</a>
+					<button class="block rounded bg-gray-100 p-2.5 text-gray-600 transition hover:text-gray-600/75 md:hidden">
+						<span class="sr-only">Toggle menu</span>
+						<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+						  <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+						</svg>
+					  </button>
+				</div>
+			</div>
+	  </header>
 
 	<slot />
 
@@ -45,9 +88,9 @@
 			</p>
 		
 			<ul class="mt-12 flex flex-wrap justify-center gap-6 md:gap-8 lg:gap-12">
-				<li><a class="text-neutral-900 transition hover:text-gray-700/75" href="/"> About </a></li>
-				<li><a class="text-neutral-900 transition hover:text-gray-700/75" href="/about"> Contact Us </a></li>
-				<li><a class="text-neutral-900 transition hover:text-gray-700/75" href="/about"> Privacy Policy </a></li>
+				<li><a class="text-neutral-900 transition hover:text-gray-700/75" href="/about"> About </a></li>
+				<li><a class="text-neutral-900 transition hover:text-gray-700/75" href="mailto:mlcagas@up.edu.ph"> Contact Us </a></li>
+				<li><a class="text-neutral-900 transition hover:text-gray-700/75" href="/"> Privacy </a></li>
 				<li><a class="text-neutral-900 transition hover:text-gray-700/75" href="/"> Licensing </a></li>
 				<li><a class="text-neutral-900 transition hover:text-gray-700/75" href="/"> Terms </a></li>
 			</ul>
@@ -96,7 +139,7 @@
 		</div>
 		<div class="mx-auto max-w-6xl px-4 border-t border-gray-200 pb-8">
 			<div class="text-center mt-4 sm:flex sm:justify-between sm:text-left">
-				<p class="text-xs text-gray-500">&copy; 2022. Meliora. All rights reserved.</p>
+				<p class="text-xs text-gray-500">&copy; 2024. Meliora. All rights reserved.</p>
 				<p class="text-xs flex gap-3 justify-between text-gray-500">
 					<a href="/" class="inline-block text-gray-500 transition hover:opacity-75"> Terms & Conditions </a>
 					<a href="/" class="inline-block text-gray-500 transition hover:opacity-75"> Privacy Policy </a>
