@@ -2,6 +2,7 @@
     import hero from '$lib/assets/bgimage.jpg';
 </script>
 
+<!-- Hero Section -->
 <section>
   <div class="grid max-w-screen-xl px-8 pt-20 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-12 lg:grid-cols-12 lg:pt-16">
       <div class="mr-auto lg:px-12 place-self-center lg:col-span-6">
@@ -23,6 +24,7 @@
   </div>
 </section>
 
+<!-- Company Logo Section -->
 <section class="my-4">
   <div class="max-w-screen-xl px-4 pb-8 mx-auto lg:pb-16">
       <div class="grid grid-cols-2 gap-8 text-gray-500 sm:gap-12 sm:grid-cols-3 lg:grid-cols-6">
@@ -60,6 +62,7 @@
   </div>
 </section>
 
+<!-- Testimonial -->
 <section class="bg-gray-50">
   <div class="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-24 lg:px-6">
       <figure class="max-w-screen-md mx-auto">
@@ -81,6 +84,7 @@
   </div>
 </section>
 
+<!-- Pricing -->
 <section class="bg-white">
   <div class="max-w-screen-xl px-4 py-8 mx-auto lg:py-24 lg:px-6">
       <div class="max-w-screen-md mx-auto mb-8 text-center lg:mb-12">
@@ -124,7 +128,7 @@
                       <span>Free updates: <span class="font-semibold">6 months</span></span>
                   </li>
               </ul>
-              <a href="/pricing" class="text-white bg-primary-500 hover:bg-primary-700 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Get started</a>
+              <a href="/pricing" class="text-white bg-primary-500 hover:bg-primary-700 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Learn More</a>
           </div>
           <!-- Pricing Card -->
           <div class="flex flex-col max-w-lg p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow">
@@ -162,7 +166,7 @@
                     <span>Free updates: <span class="font-semibold">6 months</span></span>
                 </li>
             </ul>
-            <a href="/pricing" class="text-white bg-primary-500 hover:bg-primary-700 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Get started</a>
+            <a href="/pricing" class="text-white bg-primary-500 hover:bg-primary-700 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Learn More</a>
           </div>          
           <!-- Pricing Card -->
           <div class="flex flex-col max-w-lg p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow">
@@ -200,18 +204,19 @@
                       <span>Free updates: <span class="font-semibold">6 months</span></span>
                   </li>
               </ul>
-              <a href="/pricing" class="text-white bg-primary-500 hover:bg-primary-700 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Get started</a>
+              <a href="/pricing" class="text-white bg-primary-500 hover:bg-primary-700 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Learn More</a>
           </div>
       </div>
   </div>
 </section>
 
+<!-- CTA -->
 <section class="bg-gray-50">
   <div class="max-w-screen-xl px-4 py-8 mx-auto lg:py-16 lg:px-6">
       <div class="max-w-screen-sm mx-auto text-center">
           <h2 class="mb-4 text-2xl font-extrabold leading-tight tracking-tight text-gray-900">Start your free trial today</h2>
           <p class="mb-6 font-light text-gray-500md:text-lg">Try PHCodals Premium for 30 days. No credit card required.</p>
-          <a href="/pricing" class="text-white bg-primary-500 hover:bg-primary-700 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">Free trial for 30 days</a>
+          <a href="/pricing" class="text-white bg-neutral-900 hover:bg-transparent hover:ring-1 hover:ring-black hover:text-neutral-900 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">Free trial for 30 days</a>
       </div>
   </div>
 </section>
