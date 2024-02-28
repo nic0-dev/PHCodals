@@ -1,7 +1,8 @@
 <section>
     <div class="lg:grid lg:min-h-screen lg:grid-cols-12">
-      <aside class="relative block h-16 lg:order-last lg:col-span-5 lg:h-full xl:col-span-6">
-        <svg class="absolute inset-0 h-full w-full object-cover" width="870.000000pt" height="1160.000000pt" viewBox="0 0 460 1160" preserveAspectRatio="xMidYMid meet">
+
+      <aside class="hidden relative lg:block h-16 lg:order-last lg:col-span-5 lg:h-full xl:col-span-6">
+        <svg class="absolute inset-0 h-full w-full object-cover" width="870pt" height="1160pt" viewBox="0 0 460 1160" preserveAspectRatio="xMidYMid meet">
           <g transform="translate(0.000000,1160.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none">
             <path class="fill-primary-500" d="M728 10877 l722 -722 0 -730 0 -730 -725 725 -725 725 0 -720 0 -720 728 -728 727 -727 1448 0 1447 0 0 725 0 725 -725 0 -725 0 0 727 0 728 728 -728 727 -727 2173 0 2172 0 0 725 0 725 -725 0 -725 0 0 722 0 723 -723 -723 -722 -722 -728 0 -727 0 0 725 0 725 -2172 0 -2173 0 723 -723z"/>
             <path class="fill-primary-800" d="M5075 10880 c396 -396 721 -720 722 -720 2 0 3 324 3 720 l0 720 -722 0 -723 0 720 -720z"/>
@@ -17,14 +18,11 @@
             <path class="fill-primary-900" d="M3625 720 l-720 -720 1445 0 1445 0 -720 720 c-396 396 -722 720 -725 720 -3 0 -329 -324 -725 -720z"/>
           </g>
         </svg>
-        <!-- <img alt=""
-          src="https://images.unsplash.com/photo-1605106702734-205df224ecce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-          class="absolute inset-0 h-full w-full object-cover"
-        /> -->
       </aside>
   
-      <main class="flex items-center justify-center px-8 py-8 sm:px-12 lg:col-span-7 lg:px-16 lg:py-8 xl:col-span-6">
-        <div class="max-w-xl lg:max-w-3xl">
+      <main class="flex items-center justify-center px-8 py-8 sm:px-12 lg:col-span-7 lg:px-15 lg:py-8 xl:col-span-6">
+        <div class="max-w-2xl lg:max-w-3xl">
+          
           <div class="flex flex-row items-center gap-3">
             <a href="/">
               <svg height="25px" width="25px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
