@@ -50,12 +50,12 @@
 	</div>
 	<div class="flex items-center gap-4">
 		<div class="text-sm flex gap-4 justify-between py-1">
-			<a class="hidden lg:block" href="/">
+			<a class="hidden lg:block" href="/login">
 				<div class="px-6 py-3 my-auto text-neutral-400 rounded-xl hover:bg-gray-100 hover:text-neutral-900">
 					Login
 				</div>
 			</a>
-			<a href="/session">
+			<a href="/signup">
 				<div class="px-4 py-3 text-white rounded-xl bg-neutral-900 hover:bg-transparent hover:ring-1 hover:ring-black hover:text-neutral-900">
 					Get Started
 				</div>

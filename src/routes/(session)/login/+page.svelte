@@ -1,6 +1,6 @@
 <section>
     <div class="lg:grid lg:min-h-screen lg:grid-cols-12">
-
+        
       <aside class="hidden relative lg:block h-16 lg:order-last lg:col-span-5 lg:h-full xl:col-span-6">
         <svg class="absolute inset-0 h-full w-full object-cover" width="870pt" height="1160pt" viewBox="0 0 460 1160" preserveAspectRatio="xMidYMid meet">
           <g transform="translate(0.000000,1160.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none">
@@ -20,7 +20,7 @@
         </svg>
       </aside>
   
-      <main class="flex items-center justify-center px-8 py-8 sm:px-12 lg:col-span-7 lg:px-15 lg:py-8 xl:col-span-6">
+      <main class="flex items-center justify-center px-8 py-8 sm:px-16 lg:col-span-7 lg:px-15 lg:py-8 xl:col-span-6">
         <div class="max-w-2xl lg:max-w-3xl">
           
           <div class="flex flex-row items-center gap-3">
@@ -29,37 +29,32 @@
                 <path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/>
               </svg>
             </a>
-            <h1 class="text-2xl font-extrabold text-gray-900 sm:text-3xl md:text-4xl">Welcome to PHCodals 📙</h1>
+            <h1 class="text-2xl font-extrabold text-gray-900 sm:text-3xl md:text-4xl">Sign In to PHCodals ⚖️</h1>
           </div>
           
           <p class="mt-4 leading-relaxed text-gray-500">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi nam dolorum aliquam,
             quibusdam aperiam voluptatum.
           </p>
-  
+
+            <div class="mt-5 flex">
+                <button class="grow rounded-3xl py-3 border text-sm font-medium text-neutral-900 hover:bg-gray-100">
+                    <div class="flex flex-row items-center justify-center gap-3">
+                        <svg class="aspect-square w-[20px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 488 512">
+                            <path d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z"/>
+                        </svg>
+                        Sign In with Google
+                    </div>
+                </button>
+            </div>
+
+          <span class="my-5 flex items-center">
+            <span class="h-px flex-1 bg-neutral-500"></span>
+            <span class="shrink-0 px-6 text-sm text-neutral-500"> or sign in with email</span>
+            <span class="h-px flex-1 bg-neutral-500"></span>
+          </span>
+
           <form action="/" class="mt-4 grid grid-cols-6 gap-6">
-            <div class="col-span-6 sm:col-span-3">
-              <label for="FirstName" class="block text-sm font-medium text-gray-700">First Name</label>
-  
-              <input
-                type="text"
-                id="FirstName"
-                name="first_name"
-                class="p-2 mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
-              />
-            </div>
-  
-            <div class="col-span-6 sm:col-span-3">
-              <label for="LastName" class="block text-sm font-medium text-gray-700">Last Name</label>
-  
-              <input
-                type="text"
-                id="LastName"
-                name="last_name"
-                class="p-2 mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
-              />
-            </div>
-  
             <div class="col-span-6">
               <label for="Email" class="block text-sm font-medium text-gray-700"> Email </label>
   
@@ -67,66 +62,34 @@
                 type="email"
                 id="Email"
                 name="email"
-                class="p-2 mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
+                class="p-2 mt-1 w-full rounded-md border border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
               />
             </div>
   
-            <div class="col-span-6 sm:col-span-3">
-              <label for="Password" class="block text-sm font-medium text-gray-700"> Password </label>
+            <div class="col-span-6">
+                <div class="flex flex-row justify-between">
+                    <label for="Password" class="block text-sm font-medium text-gray-700"> Password </label>
+                    <a href="/" class="text-neutral-900 text-sm underline">Forgot Password?</a>
+                </div>
+              
   
               <input
                 type="password"
                 id="Password"
                 name="password"
-                class="p-1 mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
+                class="p-2 mt-1 w-full rounded-md border border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
               />
             </div>
   
-            <div class="col-span-6 sm:col-span-3">
-              <label for="PasswordConfirmation" class="block text-sm font-medium text-gray-700">
-                Password Confirmation
-              </label>
-  
-              <input
-                type="password"
-                id="PasswordConfirmation"
-                name="password_confirmation"
-                class="p-1 mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
-              />
-            </div>
-  
-            <div class="col-span-6">
-              <label for="MarketingAccept" class="flex gap-4">
-                <input
-                  type="checkbox"
-                  id="MarketingAccept"
-                  name="marketing_accept"
-                  class="size-5 rounded-md border-gray-200 bg-white shadow-sm"
-                />
-  
-                <span class="text-sm text-gray-700">
-                  I want to receive emails about events, product updates and company announcements.
-                </span>
-              </label>
-            </div>
-  
-            <div class="col-span-6">
-              <p class="text-sm text-gray-500">
-                By creating an account, you agree to our
-                <a href="/" class="text-gray-700 underline"> terms and conditions </a>
-                and
-                <a href="/" class="text-gray-700 underline">privacy policy</a>.
-              </p>
-            </div>
   
             <div class="col-span-6 sm:flex sm:items-center sm:gap-4">
-              <button class="inline-block shrink-0 rounded-md border border-primary-600 bg-primary-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-transparent hover:text-primary-600 focus:outline-none focus:ring active:text-primary-500">
-                Create an account
+              <button class="inline-block shrink-0 rounded-lg border border-primary-600 bg-primary-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-transparent hover:text-primary-600 focus:outline-none focus:ring active:text-primary-500">
+                Sign In
               </button>
   
               <p class="mt-4 text-sm text-gray-500 sm:mt-0">
-                Already have an account?
-                <a href="/" class="text-gray-700 underline">Log in</a>.
+                Don't have an account?
+                <a href="/signup" class="text-gray-700 underline"> Sign Up</a>.
               </p>
             </div>
           </form>
