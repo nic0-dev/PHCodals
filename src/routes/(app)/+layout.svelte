@@ -1,4 +1,6 @@
 <script>
+// @ts-nocheck
+
 	import "@fontsource-variable/work-sans";
 	import "../../app.css"
 	import { page } from "$app/stores"
@@ -10,7 +12,14 @@
 </script>
 
 <header>
-	<div class="mx-auto flex h-16 max-w-screen-xl items-center gap-8 px-4 py-2 sm:px-6 lg:px-8 font-semibold tracking-tight leading-5 whitespace-nowrap ">
+	<!-- Logo and Hamburger Icon -->
+	<div class="bg-gray-50 mx-auto flex h-16 max-w-screen-xl items-center gap-8 px-4 py-2 sm:px-6 lg:px-8 font-semibold tracking-tight leading-5 whitespace-nowrap ">
+		<button on:click={toggleMenu} data-collapse-toggle="burger-menu" type="button" class="block rounded bg-gray-100 p-2.5 text-neutral-900 transition hover:bg-neutral-200 lg:hidden">
+			<span class="sr-only">Toggle menu</span>
+			<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+				<path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+			</svg>
+		</button>
 		<a class="block text-neutral-900" href="/">
 			<div class="flex flex-row gap-4 text-xl font-bold leading-7 text-neutral-900 items-center justify-between pr-5">
 				<svg class="aspect-square w-[25px] overflow-visible fill-neutral-900" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
@@ -25,6 +34,7 @@
 			</div>
 		</a>
 	
+	<!-- Pages -->
 	<div class="flex flex-1 items-center justify-end md:justify-between">
 		<nav aria-label="Global" class="hidden lg:block">
 			<ul class="text-neutral-400 flex items-center gap-6 text-sm">
@@ -46,26 +56,32 @@
 					</a>					
 				</li>
 			</ul>
-		</nav>
+		</nav>	
 	</div>
+
+	<!-- Avatar -->
 	<div class="flex items-center gap-4">
 		<div class="text-sm flex gap-4 justify-between py-1">
-			<a class="hidden lg:block" href="/login">
-				<div class="px-6 py-3 my-auto text-neutral-400 rounded-xl hover:bg-gray-100 hover:text-neutral-900">
-					Login
+
+			<div>
+				<div class="relative w-10 h-10 overflow-hidden bg-gray-100 rounded-full cursor-pointer">
+					<svg class="absolute w-12 h-12 text-gray-400 -left-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"></path></svg>
 				</div>
-			</a>
-			<a href="/signup">
-				<div class="px-4 py-3 text-white rounded-xl bg-neutral-900 hover:bg-transparent hover:ring-1 hover:ring-black hover:text-neutral-900">
-					Sign Up
+	
+				<div class="absolute right-0 z-10 mt-4 mx-4 sm:mx-8 w-56 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
+					<div class="text=gray=700 block  px-4 py-2 text-sm" role="none">
+						Signed in as<br>user@example.com
+					</div>
+					<div class="py-1" role="none">
+					  <a href="/" class="text-gray-500 block px-4 py-2 text-sm hover:bg-gray-100 hover:text-gray-900" role="menuitem" tabindex="-1" id="menu-item-2">Account</a>
+					  <a href="/" class="text-gray-500 block px-4 py-2 text-sm hover:bg-gray-100 hover:text-gray-900" role="menuitem" tabindex="-1" id="menu-item-3">Support</a>
+					  <a href="/" class="text-gray-500 block px-4 py-2 text-sm hover:bg-gray-100 hover:text-gray-900" role="menuitem" tabindex="-1" id="menu-item-3">Settings</a>
+					</div>
+					<div class="py-1" role="none">
+					  <a href="/" class="text-gray-500 block px-4 py-2 text-sm hover:bg-gray-100 hover:text-gray-900" role="menuitem" tabindex="-1" id="menu-item-6">Sign out</a>
+					</div>
+				  </div>
 				</div>
-			</a>
-			<button on:click={toggleMenu} data-collapse-toggle="burger-menu" type="button" class="block rounded bg-gray-100 p-2.5 text-neutral-900 transition hover:bg-neutral-200 lg:hidden">
-				<span class="sr-only">Toggle menu</span>
-				<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-					<path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
-				</svg>
-			</button>
 		</div>
 	</div>
 </header>
@@ -74,19 +90,13 @@
 	<div class="lg:hidden w-full md:block md:w-auto bg-gray-50">
 		<ul class="text-sm text-neutral-900 mx-6 flex flex-col font-semibold">
 			<li>
-				<a href="/" class="{$page.route.id === '/(landing)' ? 'block rounded-lg text-center py-2 px-3 bg-primary-500 text-white' : 'block rounded-lg text-center py-2 px-3 hover:text-neutral-900 hover:bg-primary-100'}"> Home </a>
+				<a href="/" class="{$page.route.id === '/(app)/home' ? 'block rounded-lg text-center py-2 px-3 bg-primary-500 text-white' : 'block rounded-lg text-center py-2 px-3 hover:text-neutral-900 hover:bg-primary-100'}"> Home </a>
 			</li>
 			<li>
 				<a href="/about" class="{$page.route.id === '/(landing)/about' ? 'block rounded-lg text-center py-2 px-3 bg-primary-500 text-white' : 'block rounded-lg text-center py-2 px-3 hover:text-neutral-900 hover:bg-primary-100'}"> About </a>
 			</li>
 			<li>
 				<a href="/pricing" class="{$page.route.id === '/(landing)/pricing' ? 'block rounded-lg text-center py-2 px-3 bg-primary-500 text-white' : 'block rounded-lg text-center py-2 px-3 hover:text-neutral-900 hover:bg-primary-100'}"> Pricing </a>
-			</li>
-			<li>
-				<a href="mailto:mlcagas@up.edu.ph" class="block rounded-lg text-center py-2 px-3 hover:bg-primary-100 hover:text-primary-500">Get in touch</a>
-			</li>
-			<li>
-				<a href="/" class="my-4 flex flex-row justify-center items-center gap-2 shrink-0 rounded-xl px-3 py-3 bg-gray-200 hover:bg-gray-300">Login</a>
 			</li>
 		</ul>
 	</div>

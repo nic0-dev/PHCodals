@@ -1,8 +1,8 @@
 <section>
     <div class="lg:grid lg:min-h-screen lg:grid-cols-12">
 
-      <aside class="bg-gray-500 hidden relative lg:block h-16 lg:order-last lg:col-span-6 lg:h-full xl:col-span-6">
-        <svg class="absolute inset-0 h-full w-full object-cover" width="870pt" height="1160pt" viewBox="0 0 560 1160" preserveAspectRatio="xMidYMid meet">
+      <aside class="hidden relative lg:block h-16 lg:order-last lg:col-span-5 lg:h-full xl:col-span-6">
+        <svg class="absolute inset-0 h-full w-full object-cover" width="870pt" height="1160pt" viewBox="0 0 460 1160" preserveAspectRatio="xMidYMid meet">
           <g transform="translate(0.000000,1160.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none">
             <path class="fill-primary-500" d="M728 10877 l722 -722 0 -730 0 -730 -725 725 -725 725 0 -720 0 -720 728 -728 727 -727 1448 0 1447 0 0 725 0 725 -725 0 -725 0 0 727 0 728 728 -728 727 -727 2173 0 2172 0 0 725 0 725 -725 0 -725 0 0 722 0 723 -723 -723 -722 -722 -728 0 -727 0 0 725 0 725 -2172 0 -2173 0 723 -723z"/>
             <path class="fill-primary-800" d="M5075 10880 c396 -396 721 -720 722 -720 2 0 3 324 3 720 l0 720 -722 0 -723 0 720 -720z"/>
@@ -36,8 +36,24 @@
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi nam dolorum aliquam,
             quibusdam aperiam voluptatum.
           </p>
+          <div class="mt-5 flex">
+            <button class="grow rounded-3xl py-3 border text-sm font-medium text-neutral-900 hover:bg-gray-100">
+                <div class="flex flex-row items-center justify-center gap-3">
+                    <svg class="aspect-square w-[20px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 488 512">
+                        <path d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z"/>
+                    </svg>
+                    Sign Up with Google
+                </div>
+            </button>
+        </div>
+
+        <span class="my-5 flex items-center">
+          <span class="h-px flex-1 bg-neutral-500"></span>
+          <span class="shrink-0 px-6 text-sm text-neutral-500"> or continue with email</span>
+          <span class="h-px flex-1 bg-neutral-500"></span>
+        </span>
   
-          <form action="/" class="mt-4 grid grid-cols-6 gap-6">
+          <form action="/" class="mt-4 grid grid-cols-6 gap-4">
             <div class="col-span-6 sm:col-span-3">
               <label for="FirstName" class="block text-sm font-medium text-gray-700">First Name</label>
   

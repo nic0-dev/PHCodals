@@ -83,9 +83,11 @@
   
   
             <div class="col-span-6 sm:flex sm:items-center sm:gap-4">
-              <button class="inline-block shrink-0 rounded-lg border border-primary-600 bg-primary-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-transparent hover:text-primary-600 focus:outline-none focus:ring active:text-primary-500">
-                Sign In
+              <a href="/home">
+                <button class="inline-block shrink-0 rounded-lg border border-primary-600 bg-primary-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-transparent hover:text-primary-600 focus:outline-none focus:ring active:text-primary-500">
+                  Sign In
               </button>
+              </a>
   
               <p class="mt-4 text-sm text-gray-500 sm:mt-0">
                 Don't have an account?
