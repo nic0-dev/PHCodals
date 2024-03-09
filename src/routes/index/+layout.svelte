@@ -24,7 +24,7 @@
 				<path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
 			</svg>
 		</button>
-		<a class="block text-neutral-900" href="/">
+		<a class="block text-neutral-900" href="/index/home">
 			<div class="flex flex-row gap-4 text-xl font-bold leading-7 text-neutral-900 items-center justify-between pr-5">
 				<svg class="aspect-square w-[25px] overflow-visible fill-neutral-900" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
 					<g data-name="Layer 1">
@@ -39,17 +39,17 @@
 		</a>
 	
 	<!-- Pages -->
-	<div class="flex flex-1 items-center justify-end md:justify-between">
+	<div class="flex flex-1 items-center justify-end md:justify-betwee">
 		<nav aria-label="Global" class="hidden lg:block">
 			<ul class="text-neutral-400 flex items-center gap-6 text-sm">
 				<li>
-					<a class:text-black={$page.route.id === "/(landing)"} class="shrink-0 px-3 py-3 hover:text-neutral-900" href="/"> Home </a>
+					<a class:text-black={$page.route.id === "/index/home"} class="shrink-0 px-3 py-3 hover:text-neutral-900" href="/index/home"> Home </a>
 				</li>
 				<li>
-				<a class:text-black={$page.route.id === "/(landing)/about"} class="shrink-0 px-3 py-3 hover:text-neutral-900" href="/about"> About </a>
+				<a class:text-black={$page.route.id === "/index/about"} class="shrink-0 px-3 py-3 hover:text-neutral-900" href="/index/about"> About </a>
 				</li>
 				<li>
-					<a href="/pricing" class:text-black={$page.route.id === "/(landing)/pricing"} class="shrink-0 rounded-lg px-3 py-3 hover:text-neutral-900">Pricing</a>
+					<a href="/index/pricing" class:text-black={$page.route.id === "/index/pricing"} class="shrink-0 rounded-lg px-3 py-3 hover:text-neutral-900">Pricing</a>
 				</li>
 				<li>
 					<a href="mailto:mlcagas@up.edu.ph" class="flex flex-row justify-center gap-2 items-center shrink-0 rounded-xl px-3 py-3 text-primary-500 bg-primary-100 hover:bg-primary-200 hover:text-primary-600">
@@ -78,9 +78,9 @@
 							Signed in as<br>user@example.com
 						</div>
 						<div class="py-1" role="none">
-						<a href="/" class="text-gray-500 block px-4 py-2 text-sm hover:bg-gray-100 hover:text-gray-900" role="menuitem" tabindex="-1" id="menu-item-2">Account</a>
-						<a href="/" class="text-gray-500 block px-4 py-2 text-sm hover:bg-gray-100 hover:text-gray-900" role="menuitem" tabindex="-1" id="menu-item-3">Support</a>
-						<a href="/" class="text-gray-500 block px-4 py-2 text-sm hover:bg-gray-100 hover:text-gray-900" role="menuitem" tabindex="-1" id="menu-item-3">Settings</a>
+						<a class="text-gray-500 block px-4 py-2 text-sm hover:bg-gray-100 hover:text-gray-900" role="menuitem" tabindex="-1" id="menu-item-2">Account</a>
+						<a class="text-gray-500 block px-4 py-2 text-sm hover:bg-gray-100 hover:text-gray-900" role="menuitem" tabindex="-1" id="menu-item-3">Support</a>
+						<a class="text-gray-500 block px-4 py-2 text-sm hover:bg-gray-100 hover:text-gray-900" role="menuitem" tabindex="-1" id="menu-item-3">Settings</a>
 						</div>
 						<div class="py-1" role="none">
 						<a href="/" class="text-gray-500 block px-4 py-2 text-sm hover:bg-gray-100 hover:text-gray-900" role="menuitem" tabindex="-1" id="menu-item-6">Sign out</a>
@@ -93,19 +93,22 @@
 </header>
 
 {#if !visible}
-	<div class="lg:hidden w-full md:block md:w-auto bg-gray-50">
-		<ul class="text-sm text-neutral-900 mx-6 flex flex-col font-semibold">
-			<li>
-				<a href="/" class="{$page.route.id === '/(app)/home' ? 'block rounded-lg text-center py-2 px-3 bg-primary-500 text-white' : 'block rounded-lg text-center py-2 px-3 hover:text-neutral-900 hover:bg-primary-100'}"> Home </a>
-			</li>
-			<li>
-				<a href="/about" class="{$page.route.id === '/(landing)/about' ? 'block rounded-lg text-center py-2 px-3 bg-primary-500 text-white' : 'block rounded-lg text-center py-2 px-3 hover:text-neutral-900 hover:bg-primary-100'}"> About </a>
-			</li>
-			<li>
-				<a href="/pricing" class="{$page.route.id === '/(landing)/pricing' ? 'block rounded-lg text-center py-2 px-3 bg-primary-500 text-white' : 'block rounded-lg text-center py-2 px-3 hover:text-neutral-900 hover:bg-primary-100'}"> Pricing </a>
-			</li>
-		</ul>
-	</div>
+<div class="lg:hidden w-full md:block md:w-auto bg-gray-50 pb-4">
+	<ul class="text-sm text-neutral-900 mx-6 flex flex-col font-semibold">
+		<li>
+			<a href="/index/home" class="{$page.route.id === '/index/home' ? 'block rounded-lg text-center py-2 px-3 bg-primary-500 text-white' : 'block rounded-lg text-center py-2 px-3 hover:text-neutral-900 hover:bg-primary-100'}"> Home </a>
+		</li>
+		<li>
+			<a href="/index/about" class="{$page.route.id === '/index/about' ? 'block rounded-lg text-center py-2 px-3 bg-primary-500 text-white' : 'block rounded-lg text-center py-2 px-3 hover:text-neutral-900 hover:bg-primary-100'}"> About </a>
+		</li>
+		<li>
+			<a href="/index/pricing" class="{$page.route.id === '/index/pricing' ? 'block rounded-lg text-center py-2 px-3 bg-primary-500 text-white' : 'block rounded-lg text-center py-2 px-3 hover:text-neutral-900 hover:bg-primary-100'}"> Pricing </a>
+		</li>
+		<li>
+			<a href="mailto:mlcagas@up.edu.ph" class="block rounded-lg text-center py-2 px-3 hover:bg-primary-100 hover:text-primary-500">Get in touch</a>
+		</li>
+	</ul>
+</div>
 
 {/if}
 

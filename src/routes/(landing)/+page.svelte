@@ -13,7 +13,7 @@
             and professionals alike. Elevate your understanding of law with us today.
           </p>
           <div class="space-y-4 sm:flex sm:space-y-0 sm:space-x-4 mt-4 md:mt-8">
-            <a href="/home" class="inline-block rounded-lg bg-neutral-900 px-8 py-3 text-sm font-semibold text-white transition hover:bg-neutral-700">
+            <a href="/index/home" class="inline-block rounded-lg bg-neutral-900 px-8 py-3 text-sm font-semibold text-white transition hover:bg-neutral-700">
               Guest
             </a>
             <a href="/signup" class="inline-block rounded-lg bg-primary-600 px-4 py-3 text-sm font-semibold text-white transition hover:bg-primary-400">
