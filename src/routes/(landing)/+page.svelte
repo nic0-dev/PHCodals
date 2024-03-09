@@ -6,11 +6,11 @@
 <section>
   <div class="grid max-w-screen-xl px-8 pt-20 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-12 lg:grid-cols-12 lg:pt-16">
       <div class="mr-auto lg:px-12 place-self-center lg:col-span-6">
-          <h1 class="text-gray-900 max-w-2xl mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-5xl">Lorem, ipsum dolor sit amet consectetur.</h1>
-          <p class="max-w-2xl mb-6 font-medium text-gray-500 lg:mb-8 md:text-lg lg:text-md">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, egestas tempus tellus etiam
-            sed. Quam a scelerisque amet ullamcorper eu enim et fermentum, augue. Aliquet amet volutpat
-            quisque ut interdum tincidunt duis.
+          <h1 class="text-gray-900 max-w-2xl mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-5xl">Legal Provisions at Your Fingertips.</h1>
+          <p class="max-w-2xl mb-6 pt-4 font-medium text-gray-500 lg:mb-8 md:text-md lg:text-md">
+            Dive into the depths of legal texts with ease. PHCodals offers a streamlined platform to 
+            read, annotate, and understand the full spectrum of Philippine law provisions for students 
+            and professionals alike. Elevate your understanding of law with us today.
           </p>
           <div class="space-y-4 sm:flex sm:space-y-0 sm:space-x-4 mt-4 md:mt-8">
             <a href="/home" class="inline-block rounded-lg bg-neutral-900 px-8 py-3 text-sm font-semibold text-white transition hover:bg-neutral-700">
@@ -73,7 +73,7 @@
               <path d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z" fill="currentColor"/>
           </svg> 
           <blockquote>
-              <p class="text-xl font-medium text-gray-900 md:text-2xl">"PHCodals is just awesome. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, accusamus obcaecati assumenda necessitatibus inventore quis at veniam enim dolorum porro."</p>
+              <p class="text-xl font-medium text-gray-900 md:text-2xl">"PHCodals has been a game-changer for my studies. The intuitive design and comprehensive database of legal provisions make it the perfect companion for both seasoned practitioners and law students alike. It's the tool I never knew I needed, but now can't do without."</p>
           </blockquote>
           <figcaption class="flex items-center justify-center mt-6 space-x-3">
               <!-- svelte-ignore a11y-img-redundant-alt -->
@@ -91,14 +91,14 @@
 <section class="bg-white">
   <div class="max-w-screen-xl px-4 py-8 mx-auto lg:py-24 lg:px-6">
       <div class="max-w-screen-md mx-auto mb-8 text-center lg:mb-12">
-          <h2 class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900">Designed for law students like you</h2>
-          <p class="mb-5 font-medium text-gray-500 sm:text-md">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id magnam iste soluta itaque, ad non.</p>
+          <h2 class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900">Designed for Every Learner</h2>
+          <p class="mb-5 font-medium text-gray-500 sm:text-md">Choose the perfect PH Codals subscription that fits your legal learning journey.</p>
       </div>
       <div class="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
           <!-- Pricing Card -->
-          <div class="flex flex-col max-w-lg p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow">
+          <div class="flex flex-col w-full p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow">
               <h3 class="mb-4 text-2xl font-semibold">Free</h3>
-              <p class="font-light text-gray-500 sm:text-lg0">Best option for personal use & for your next project.</p>
+              <p class="font-light text-gray-500 sm:text-lg0">Best option for new law students</p>
               <div class="flex items-baseline justify-center my-8">
                   <span class="mr-2 text-5xl font-bold">₱0</span>
                   <span class="text-gray-500">/month</span>
@@ -108,35 +108,30 @@
                   <li class="flex items-center space-x-3">
                       <!-- Icon -->
                       <svg class="flex-shrink-0 w-5 h-5 text-primary-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                      <span>Individual configuration</span>
+                      <span>Access core codal provisions</span>
                   </li>
                   <li class="flex items-center space-x-3">
                       <!-- Icon -->
                       <svg class="flex-shrink-0 w-5 h-5 text-primary-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                      <span>No setup, or hidden fees</span>
+                      <span>User-friendly interface</span>
                   </li>
                   <li class="flex items-center space-x-3">
                       <!-- Icon -->
                       <svg class="flex-shrink-0 w-5 h-5 text-primary-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                      <span>Team size: <span class="font-semibold">1 developer</span></span>
+                      <span>Regular legal updates</span>
                   </li>
                   <li class="flex items-center space-x-3">
                       <!-- Icon -->
                       <svg class="flex-shrink-0 w-5 h-5 text-primary-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                      <span>Premium support: <span class="font-semibold">6 months</span></span>
-                  </li>
-                  <li class="flex items-center space-x-3">
-                      <!-- Icon -->
-                      <svg class="flex-shrink-0 w-5 h-5 text-primary-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                      <span>Free updates: <span class="font-semibold">6 months</span></span>
+                      <span>Community support forums</span>
                   </li>
               </ul>
-              <a href="/(landing)/pricing" class="text-white bg-primary-500 hover:bg-primary-700 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Learn More</a>
+              <a href="/pricing" class="text-white bg-primary-500 hover:bg-primary-700 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Learn More</a>
           </div>
           <!-- Pricing Card -->
-          <div class="flex flex-col max-w-lg p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow">
+          <div class="flex flex-col w-full p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow">
             <h3 class="mb-4 text-2xl font-semibold">Starter</h3>
-            <p class="font-light text-gray-500 sm:text-lg0">Best option for personal use & for your next project.</p>
+            <p class="font-light text-gray-500 sm:text-lg0">Perfect for in-depth studies</p>
             <div class="flex items-baseline justify-center my-8">
                 <span class="mr-2 text-5xl font-bold">₱150</span>
                 <span class="text-gray-500">/month</span>
@@ -146,69 +141,59 @@
                 <li class="flex items-center space-x-3">
                     <!-- Icon -->
                     <svg class="flex-shrink-0 w-5 h-5 text-primary-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                    <span>Individual configuration</span>
+                    <span>Enhanced search capabilities</span>
                 </li>
                 <li class="flex items-center space-x-3">
                     <!-- Icon -->
                     <svg class="flex-shrink-0 w-5 h-5 text-primary-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                    <span>No setup, or hidden fees</span>
+                    <span>Save and annotate documents</span>
                 </li>
                 <li class="flex items-center space-x-3">
                     <!-- Icon -->
                     <svg class="flex-shrink-0 w-5 h-5 text-primary-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                    <span>Team size: <span class="font-semibold">1 developer</span></span>
+                    <span>Priority email support</span>
                 </li>
                 <li class="flex items-center space-x-3">
                     <!-- Icon -->
                     <svg class="flex-shrink-0 w-5 h-5 text-primary-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                    <span>Premium support: <span class="font-semibold">6 months</span></span>
-                </li>
-                <li class="flex items-center space-x-3">
-                    <!-- Icon -->
-                    <svg class="flex-shrink-0 w-5 h-5 text-primary-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                    <span>Free updates: <span class="font-semibold">6 months</span></span>
+                    <span>Exclusive content access</span>
                 </li>
             </ul>
-            <a href="/(landing)/pricing" class="text-white bg-primary-500 hover:bg-primary-700 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Learn More</a>
-          </div>          
+            <a href="/pricing" class="text-white bg-primary-500 hover:bg-primary-700 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Learn More</a>
+        </div>
           <!-- Pricing Card -->
-          <div class="flex flex-col max-w-lg p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow">
-              <h3 class="mb-4 text-2xl font-semibold">Premium</h3>
-              <p class="font-light text-gray-500 sm:text-lg0">Best option for personal use & for your next project.</p>
-              <div class="flex items-baseline justify-center my-8">
-                  <span class="mr-2 text-5xl font-bold">₱300</span>
-                  <span class="text-gray-500">/month</span>
-              </div>
-              <!-- List -->
-              <ul role="list" class="mb-8 space-y-4 text-left">
-                  <li class="flex items-center space-x-3">
-                      <!-- Icon -->
-                      <svg class="flex-shrink-0 w-5 h-5 text-primary-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                      <span>Individual configuration</span>
-                  </li>
-                  <li class="flex items-center space-x-3">
-                      <!-- Icon -->
-                      <svg class="flex-shrink-0 w-5 h-5 text-primary-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                      <span>No setup, or hidden fees</span>
-                  </li>
-                  <li class="flex items-center space-x-3">
-                      <!-- Icon -->
-                      <svg class="flex-shrink-0 w-5 h-5 text-primary-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                      <span>Team size: <span class="font-semibold">1 developer</span></span>
-                  </li>
-                  <li class="flex items-center space-x-3">
-                      <!-- Icon -->
-                      <svg class="flex-shrink-0 w-5 h-5 text-primary-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                      <span>Premium support: <span class="font-semibold">6 months</span></span>
-                  </li>
-                  <li class="flex items-center space-x-3">
-                      <!-- Icon -->
-                      <svg class="flex-shrink-0 w-5 h-5 text-primary-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                      <span>Free updates: <span class="font-semibold">6 months</span></span>
-                  </li>
-              </ul>
-              <a href="/(landing)/pricing" class="text-white bg-primary-500 hover:bg-primary-700 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Learn More</a>
-          </div>
+          <div class="flex flex-col w-full p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow">
+            <h3 class="mb-4 text-2xl font-semibold">Premium</h3>
+            <p class="font-light text-gray-500 sm:text-lg0">Comprehensive for professionals</p>
+            <div class="flex items-baseline justify-center my-8">
+                <span class="mr-2 text-5xl font-bold">₱300</span>
+                <span class="text-gray-500">/month</span>
+            </div>
+            <!-- List -->
+            <ul role="list" class="mb-8 space-y-4 text-left">
+                <li class="flex items-center space-x-3">
+                    <!-- Icon -->
+                    <svg class="flex-shrink-0 w-5 h-5 text-primary-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                    <span>Full codal library access</span>
+                </li>
+                <li class="flex items-center space-x-3">
+                    <!-- Icon -->
+                    <svg class="flex-shrink-0 w-5 h-5 text-primary-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                    <span>Full Access to Tools</span>
+                </li>
+                <li class="flex items-center space-x-3">
+                    <!-- Icon -->
+                    <svg class="flex-shrink-0 w-5 h-5 text-primary-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                    <span>24/7 premium support</span>
+                </li>
+                <li class="flex items-center space-x-3">
+                    <!-- Icon -->
+                    <svg class="flex-shrink-0 w-5 h-5 text-primary-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                    <span>Continuous feature updates</span>
+                </li>
+            </ul>
+            <a href="/pricing" class="text-white bg-primary-500 hover:bg-primary-700 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Learn More</a>
+        </div>
       </div>
   </div>
 </section>
@@ -219,7 +204,7 @@
       <div class="max-w-screen-sm mx-auto text-center">
           <h2 class="mb-4 text-2xl font-extrabold leading-tight tracking-tight text-gray-900">Start your free trial today</h2>
           <p class="mb-6 font-light text-gray-500md:text-lg">Try PHCodals Premium for 30 days. No credit card required.</p>
-          <a href="/(landing)/pricing" class="text-white bg-neutral-900 hover:bg-transparent hover:ring-1 hover:ring-black hover:text-neutral-900 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">Free trial for 30 days</a>
+          <a href="/pricing" class="text-white bg-neutral-900 hover:bg-transparent hover:ring-1 hover:ring-black hover:text-neutral-900 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">Free trial for 30 days</a>
       </div>
   </div>
 </section>
